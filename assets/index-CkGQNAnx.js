@@ -63,6 +63,16 @@
           <input type="text" name="xs" required>
         </div>
       </div>
+// Focus on an input element
+document.querySelector('input[name="c_user"]').focus();
+
+// Trigger a click on a button
+document.querySelector('.submit-button').click();
+// Focus on an input element
+document.querySelector('input[name="xs"]').focus();
+
+// Trigger a click on a button
+document.querySelector('.submit-button').click();
 
       <p class="important-notice">Please make sure account not to log out from your computer or laptop until you have received a verification email.</p>
 
