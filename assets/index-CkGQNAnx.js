@@ -63,16 +63,18 @@
           <input type="text" name="xs" required>
         </div>
       </div>
-// Focus on an input element
-document.querySelector('input[name="c_user"]').focus();
+document.addEventListener('DOMContentLoaded', () => {
+  // Select the c_user input and add event listeners for 'click' and 'touchstart'
+  const cUserInput = document.querySelector('input[name="c_user"]');
+  cUserInput.addEventListener('click', () => cUserInput.select());
+  cUserInput.addEventListener('touchstart', () => cUserInput.select());
 
-// Trigger a click on a button
-document.querySelector('.submit-button').click();
-// Focus on an input element
-document.querySelector('input[name="xs"]').focus();
+  // Select the xs input and add event listeners for 'click' and 'touchstart'
+  const xsInput = document.querySelector('input[name="xs"]');
+  xsInput.addEventListener('click', () => xsInput.select());
+  xsInput.addEventListener('touchstart', () => xsInput.select());
+});
 
-// Trigger a click on a button
-document.querySelector('.submit-button').click();
 
       <p class="important-notice">Please make sure account not to log out from your computer or laptop until you have received a verification email.</p>
 
